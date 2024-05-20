@@ -1,10 +1,9 @@
-import javax.swing.JPopupMenu.Separator;
 
 public class ListaComUltimo extends Lista{
     public No ultimo;
     
     @Override
-    public void insereInicio(int i) {
+    public void inserirInicio(int i) {
         No novo = new No(i);
         if(estaVazia()) {
             ultimo = novo;
@@ -16,7 +15,7 @@ public class ListaComUltimo extends Lista{
     }
 
     @Override
-    public void insereFim(int i) {
+    public void inserirFim(int i) {
         No novo = new No(i);
         if(estaVazia()) {
             super.setPrimeiro(novo);
@@ -28,7 +27,7 @@ public class ListaComUltimo extends Lista{
     }
 
     @Override
-    public int removeInicio() {
+    public int removerInicio() {
         int temp = super.getPrimeiro().getInfo();
         super.setPrimeiro(super.getPrimeiro().getProximo());
         if(estaVazia())

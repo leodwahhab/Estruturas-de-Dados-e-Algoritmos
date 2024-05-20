@@ -5,12 +5,12 @@ public class TesteLista {
         System.out.println(lista);
 
         for(int i = 1; i < 10; i++) {
-            lista.insereInicio(i*10);
+            lista.inserirInicio(i*10);
             System.out.println(lista);
         }
 
         for(int i = 1; i < 10; i++) {
-            lista.insereFim(i*5);
+            lista.inserirFim(i*5);
             System.out.println(lista);
         }
 
@@ -18,7 +18,7 @@ public class TesteLista {
             System.out.println("lista vazia, nao ha o que remover");
         }
         else {
-            System.out.println(lista.removeFim() + " foi removido do fim");
+            System.out.println(lista.removerFim() + " foi removido do fim");
         }
    }
 }

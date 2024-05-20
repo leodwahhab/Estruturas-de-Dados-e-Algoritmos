@@ -29,48 +29,48 @@ public class NossoVetor {
         return s /* + "\n" */ ;
     }
 
-    public boolean estaCheio () {
+    public boolean estaCheio() {
         return ultPos == dados.length-1;
     }
 
-    public boolean estaVazio (){
+    public boolean estaVazio(){
         return ultPos == -1;
     }
 
-    private void redimensiona (int novaCapacidade) {
+    private void redimensionar(int novaCapacidade) {
         double[] temp = new double[novaCapacidade];
         for (int i=0; i<=ultPos; i++) 
             temp[i] = dados[i];
         dados = temp;
     }
 
-    public void adiciona (int e) {
-        if (estaCheio()) redimensiona(dados.length * 2);
+    public void adicionar(int e) {
+        if (estaCheio()) redimensionar(dados.length * 2);
         dados[++ultPos] = e;
     } 
 
-    public void adiciona (double e) {
-        if (estaCheio()) redimensiona(dados.length * 2);
+    public void adicionar(double e) {
+        if (estaCheio()) redimensionar(dados.length * 2);
         dados[++ultPos] = e;
     } 
 
-    public double remove () {
+    public double remover() {
         if (estaVazio()) return -1;
         double aux = dados[ultPos--];
         if (dados.length >= 10 && ultPos <= dados.length/4) 
-            redimensiona(dados.length / 2);
+            redimensionar(dados.length / 2);
         return aux;
     }
 
     //método para inserir valores randômicos no vetor
-    public void preencheVetor () {
+    public void preencheVetor() {
         Random r = new Random();
         for (int i=0; i<dados.length; i++) {
-            adiciona(r.nextInt(dados.length*10) + 1);
+            adicionar(r.nextInt(dados.length*10) + 1);
         }
     }
 
-    public void esvaziaVetor() {
+    public void esvaziarVetor() {
         ultPos = -1;
     }
 

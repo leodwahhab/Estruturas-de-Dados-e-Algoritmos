@@ -13,7 +13,7 @@ public class Lista {
         return primeiro == null; //se primeiro for igual a null, retorna vdd, senao false
     }
 
-    public void insereInicio(int i) {
+    public void inserirInicio(int i) {
         No novo = new No(i);
         if(!estaVazia()) {
             novo.setProximo(primeiro);
@@ -40,7 +40,7 @@ public class Lista {
         return s + "\n";
     }
 
-    public void insereFim(int i) {
+    public void inserirFim(int i) {
         No novo = new No(i);
         if(estaVazia()) {
             primeiro = novo;
@@ -54,7 +54,7 @@ public class Lista {
         }
     }
 
-    public int removeInicio() {
+    public int removerInicio() {
         int info = primeiro.getInfo();
 
         primeiro = primeiro.getProximo();
@@ -62,7 +62,7 @@ public class Lista {
         return info;
     }
 
-    public int removeFim() {
+    public int removerFim() {
         int temp;
 
         if(primeiro.getProximo() == null) { //testa se so tem um elemento

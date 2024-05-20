@@ -21,17 +21,17 @@ public class Teste1 {
 
         System.out.println("nosso vetor depois do set: "  + v1);
  
-       if(v1.adiciona(10)){
+    //    if(){
 
-            System.out.println("elemento inserido com successo");
+    //         System.out.println("elemento inserido com successo");
 
-       }
+    //    }
 
-       else{
+    //    else{
 
-            System.out.println("vetor cheio");
+    //         System.out.println("vetor cheio");
 
-       }
+    //    }
 
         System.out.println("nosso vetor depois do adiciona: " + v1);
 

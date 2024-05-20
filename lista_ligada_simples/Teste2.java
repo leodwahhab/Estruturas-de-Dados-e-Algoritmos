@@ -3,12 +3,12 @@ public class Teste2{
       NossoVetor v = new NossoVetor(10);
       int i = 10;
       while(!v.estaCheio()){
-        v.adiciona(i);
+        v.adicionar(i);
         i += 10;
         System.out.println(v);
       }
       while(!v.estaVazio()){
-        System.out.println(v.remove()+ " foi atendido \n");
+        System.out.println(v.remover()+ " foi atendido \n");
         System.out.println(v);
       }
     }
