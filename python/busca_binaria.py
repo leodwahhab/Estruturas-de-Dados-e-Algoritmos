@@ -14,5 +14,6 @@ def buscaBinaria(lista, item):
             minimo = meio + 1
     return None
 
+if __name__ == '__main__':
     lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     print(buscaBinaria(lista, 3))
