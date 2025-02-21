@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Estrutura-de-Dados-e-Algoritmos.iml" filepath="$PROJECT_DIR$/Estrutura-de-Dados-e-Algoritmos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pilhas/pilhas.iml" filepath="$PROJECT_DIR$/pilhas/pilhas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
     </modules>
   </component>
 </project>
