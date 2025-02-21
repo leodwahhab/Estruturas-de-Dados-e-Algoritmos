@@ -1,8 +1,11 @@
-package listas.lista_ligada_simples;
+package vetor.ordenacao;
+
+import vetor.NossoVetor;
 
 import java.util.Scanner;
 import java.util.Date;
 
+//TODO: organizar pacotes e classes afim de ter uma classe que executa os algoritmos de ordenação
 public class Ordenacao{
     public static void main (String[]Args){
         Scanner sc = new Scanner(System.in);
@@ -18,6 +21,7 @@ public class Ordenacao{
             System.out.println("vetor gerado: " + v);
 
             double inicio = new Date().getTime();
+            v.bubbleSort.bubbleSort();
             v.quickSort(0, n-1);
             double fim = new Date().getTime();
 

@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="447e9b51-5501-4990-ba51-e025d02e6224" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura-de-Dados-e-Algoritmos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/Carro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/ListaDupla.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/NoDuplo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/NoDuplo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/TesteNoDuplo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_duplamente/TesteNoDuplo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/Lista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/Lista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/ListaComUltimo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/ListaComUltimo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/No.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/No.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/NossoVetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/NossoVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/Ordenacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/Ordenacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/Teste1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/Teste2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/Teste3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/TesteLista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/TesteLista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/TesteNovo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_ligada_simples/TesteNovo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilhas/pilha_sobre_lista/Pilha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilhas/pilha_sobre_lista/TestePilha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilhas/pilha_sobre_vetor/Pilha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilhas/pilha_sobre_vetor/Pilha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilhas/pilha_sobre_vetor/TestePilha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilhas/pilha_sobre_vetor/TestePilha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pilhas/pilhas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursividade/Fatorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursividade/Fatorial.java" beforeDir="false" />
-    </list>
+    <list default="true" id="447e9b51-5501-4990-ba51-e025d02e6224" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,12 +32,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Fatorial.executor": "Run",
+    "Application.Teste3.executor": "Run",
+    "Application.TesteNoDuplo.executor": "Run",
+    "Application.TesteNovo.executor": "Run",
     "Application.TestePilha.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/workspace/Estrutura-de-Dados-e-Algoritmos"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Teste3">
