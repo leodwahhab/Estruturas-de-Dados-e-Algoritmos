@@ -7,6 +7,8 @@ import java.util.Date;
 
 //TODO: organizar pacotes e classes afim de ter uma classe que executa os algoritmos de ordenação
 public class Ordenacao{
+    static BubbleSort bubbleSort = new BubbleSort();
+
     public static void main (String[]Args){
         Scanner sc = new Scanner(System.in);
         NossoVetor v;
@@ -21,8 +23,9 @@ public class Ordenacao{
             System.out.println("vetor gerado: " + v);
 
             double inicio = new Date().getTime();
-            v.bubbleSort.bubbleSort();
-            v.quickSort(0, n-1);
+
+            bubbleSort.bubbleSort(v.getDados());
+
             double fim = new Date().getTime();
 
             System.out.println("Vetor ordenado pelo bubble: " + v);

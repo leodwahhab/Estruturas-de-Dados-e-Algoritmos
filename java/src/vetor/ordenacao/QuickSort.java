@@ -3,11 +3,11 @@ package vetor.ordenacao;
 public class QuickSort {
     public double[] dados = new double[10];
 
-    void quickSort(int posInicio, int posFim) {
+    void quickSort(double[] dados, int posInicio, int posFim) {
         if (posInicio < posFim) {
             int pivo = partition(posInicio, posFim);
-            quickSort(posInicio, pivo - 1);
-            quickSort(pivo + 1, posFim);
+            quickSort(dados, posInicio, pivo - 1);
+            quickSort(dados, pivo + 1, posFim);
         }
     }
 
