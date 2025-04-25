@@ -16,6 +16,7 @@ public class BuscaEmLargura {
         );
         Queue<String> visitar = new ArrayDeque<>(List.of("eu"));
         Set<String> visitados = new HashSet<>();
+        Map<String, String> pais = new HashMap<>();
 
         while(true) {
             if(visitar.isEmpty()) {
@@ -23,18 +24,34 @@ public class BuscaEmLargura {
                 break;
             }
 
-            var vertice = visitar.poll();
+            String vertice = visitar.poll();
 
             if(visitados.contains(vertice))
                 continue;
 
             if(ehVendedorManga(vertice)) {
                 System.out.println("vendedor encontrado: " + vertice);
+                System.out.print("caminho: " + vertice + " -> ");
+                while(true) {
+                    vertice = pais.get(vertice);
+
+                    if(vertice.equals("eu")) {
+                        System.out.print(vertice);
+                        break;
+                    }
+
+                    System.out.print(vertice + " -> ");
+                }
                 break;
             }
 
             var vizinhos = grafo.get(vertice);
-            visitar.addAll(vizinhos);
+            final String v = vertice;
+            vizinhos.forEach(vizinho -> {
+                visitar.add(vizinho);
+                pais.put(vizinho, v);
+            });
+
             visitados.add(vertice);
         }
     }
