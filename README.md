@@ -13,15 +13,6 @@ raiz/
 │   ├── Utils/                # Funções utilitárias em Python
 │   └── inspectionProfiles/   # Perfis de inspeção (configurações do projeto em Python)
 ├── java/
-│   ├── production/
-│   │   └── java/
-│   │       ├── listas/
-│   │       │   ├── lista_ligada_dupla
-│   │       │   └── lista_ligada_simples
-│   │       ├── pilhas/
-│   │       │   ├── pilha_sobre_lista
-│   │       │   └── pilha_sobre_vetor
-│   │       └── recursividade/
 │   └── src/
 │       ├── listas/
 │       │   ├── lista_ligada_dupla
@@ -37,7 +28,6 @@ raiz/
 - Estrutura voltada para utilitários e scripts organizados de forma modular.
 
 ### 2. **Java**
-- Diretório subdividido em `src` e `production`.
 - Subdiretórios temáticos incluem:
   - **Listas**: Implementações de lista ligada simples e dupla.
   - **Pilhas**: Operações com pilhas usando lista e vetor.
@@ -61,7 +51,7 @@ Contribuições são bem-vindas! Caso tenha sugestões de melhoria, correções 
 ## Referências
 
 - Livro: *"Entendendo Algoritmos"* por Aditya Bhargava
-- Professora: Andreia Machion, pelas valiosas aulas de Estrutura de Dados na Fatec.
+- Professora: Andreia Machion, pelas valiosas aulas de Estrutura de Dados na Fatec (Faculdade de Tecnonologia do Estado de São Paulo).
 
 ---
 
